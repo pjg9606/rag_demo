@@ -1,7 +1,7 @@
 # RAG Demo: 법률 문서 기반 LLM QA
 - 이 저장소는 법률 문서(PDF)를 분할(Chunking) & 벡터 임베딩 후, LLM(GPT)과 결합해 RAG(Retrieval-Augmented Generation) 질의응답을 시연하는 간단한 데모입니다.
 - LangChain Community + HuggingFaceEmbeddings + FAISS + OpenAI GPT로 구성했으며, Streamlit UI를 통해 웹 상에서 질문을 입력하고 답변을 받을 수 있습니다.
-- 데이터는 국가법령정보센터(https://www.law.go.kr/)의 자료를 이용하였습니다.
+- 데이터는 국가법령정보센터(https://www.law.go.kr/) 의 자료를 이용하였습니다.
 ## 프로젝트 개요
 - LangChain과 OpenAI API를 활용한 법률 문서 기반 RAG 시스템
 - 사용자가 입력한 질문에 대해 법률 문서에서 정보를 검색하고, AI가 답변을 생성
